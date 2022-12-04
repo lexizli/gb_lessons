@@ -8,7 +8,7 @@ What is a Git?
 
 ---
 ## Let's try to describe some commands that we we have learned  
-* [git config](1):
+* [git config](#config)
 * git init
 * git add
 * git commit
@@ -18,7 +18,10 @@ What is a Git?
 * git checkout
 * git merge
 
-[1]: ### Git config
+<a id="config"></a>
+
+---
+### Git config
 
 Set the name and email that will be attached to commits and tags.
 ```
