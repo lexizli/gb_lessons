@@ -23,8 +23,8 @@ What is a Git?
 ---
 ### Git config
 
-Set the name and email that will be attached to commits and tags.
+Set the name _John Doe_ and email _john_d_email@mail.com_ дthat will be attached to commits and tags.
 ```
-git config  --global user.name "John Doe"
-git config -- global user.email "john_d_email@mail.com"
+git config --global user.name "John Doe"
+git config --global user.email "john_d_email@mail.com"
  ```
