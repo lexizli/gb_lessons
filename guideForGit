@@ -9,7 +9,7 @@ What is a Git?
 ---
 ## Let's try to describe some commands that we we have learned  
 * [git config](#config)
-* git init
+* [git init](#init)
 * git add
 * git commit
 * git status
@@ -21,10 +21,22 @@ What is a Git?
 <a id="config"></a>
 
 ---
-### Git config
+### git config
 
 Set the name _John Doe_ and email _john_d_email@mail.com_ дthat will be attached to commits and tags.
 ```
 git config --global user.name "John Doe"
 git config --global user.email "john_d_email@mail.com"
- ```
+```
+
+
+<a id="init"></a>
+
+---
+### git init
+
+Create a local repo in _directory_
+If omit _directory_ current directory will be initialised as repo
+```
+git init <directory>
+```
