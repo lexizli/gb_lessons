@@ -13,12 +13,12 @@ What is a Git?
 * [git config](#config)
 * [git init](#init)
 * [git add](#add)
-* git commit
-* git status
-* git log
-* git branch
-* git checkout
-* git merge
+* [git commit](#commit)
+* [git status](#status)
+* [git log](#log)
+* [git branch](#branch)
+* [git checkout](#checkout)
+* [git merge](#merge)
 
 <a id="config"></a>
 
@@ -56,5 +56,77 @@ Add all files in directory if used the dot .
 ```
 git add <file>
 git add .
+```
+[top](#top)
+
+<a id="commit"></a>
+
+---
+## git commit
+
+Commit all added files to git with _comment_.
+
+```
+git commit -m <comment>
+```
+[top](#top)
+
+<a id="status"></a>
+
+---
+## git status
+
+*******************Commit all added files to git with _comment_.*******************
+
+```
+git status 
+```
+[top](#top)
+
+<a id="log"></a>
+
+---
+## git log
+
+*******************Commit all added files to git with _comment_.*******************
+
+```
+git log
+```
+[top](#top)
+
+<a id="branch"></a>
+
+---
+## git branch
+
+*******************Commit all added files to git with _comment_.
+
+```
+git branch <branch_name>
+```
+[top](#top)
+
+<a id="checkout"></a>
+
+---
+## git checkout
+
+*****************Commit all added files to git with _comment_.
+
+```
+git checkout <branch_name>
+```
+[top](#top)
+
+<a id="merge"></a>
+
+---
+## git merge
+
+Commit all added files to git with _comment_.
+
+```
+git merge <branch_name>
 ```
 [top](#top)
