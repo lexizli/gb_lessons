@@ -6,11 +6,13 @@ What is a Git?
 
 ![Common Git commands](https://res.cloudinary.com/practicaldev/image/fetch/s--ShHSfi-a--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://cl.ly/1N2U2i2Z2C16/Image%25202018-04-11%2520at%252012.47.23%2520PM.png)
 
+<a id="top"></a>
+
 ---
 ## Let's try to describe some commands that we we have learned  
 * [git config](#config)
 * [git init](#init)
-* git add
+* [git add](#add)
 * git commit
 * git status
 * git log
@@ -21,22 +23,38 @@ What is a Git?
 <a id="config"></a>
 
 ---
-### git config
+## git config
 
 Set the name _John Doe_ and email _john_d_email@mail.com_ дthat will be attached to commits and tags.
 ```
 git config --global user.name "John Doe"
 git config --global user.email "john_d_email@mail.com"
 ```
-
+[top](#top)
 
 <a id="init"></a>
 
 ---
-### git init
+## git init
 
-Create a local repo in _directory_
-If omit _directory_ current directory will be initialised as repo
+Create a local repo in _directory_.
+If omit _directory_ current directory will be initialised as repo.
 ```
 git init <directory>
 ```
+[top](#top)
+
+<a id="add"></a>
+
+---
+## git add
+
+Add _file_ content to the index. 
+
+Add all files in directory if used the dot .
+
+```
+git add <file>
+git add .
+```
+[top](#top)
