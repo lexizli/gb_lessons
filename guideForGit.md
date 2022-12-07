@@ -76,7 +76,7 @@ git commit -m <comment>
 ---
 ## git status
 
-Show working tree status — differences between the index file and the current HEADgi
+Show working tree status — differences between the index file and the current HEAD
  commit. 
 
 ```
@@ -113,11 +113,18 @@ git branch <branch_name>
 ---
 ## git checkout
 
-*****************Commit all added files to git with _comment_.
+Switch to a branch _branch_name_ and update the working directory
 
 ```
 git checkout <branch_name>
 ```
+
+Ок create a new branch _branch_name_ and switch to it
+
+```
+git checkout -b <branch_name>
+```
+
 [top](#top)
 
 <a id="merge"></a>
@@ -125,7 +132,7 @@ git checkout <branch_name>
 ---
 ## git merge
 
-Commit all added files to git with _comment_.
+Merge one branch to another _comment_.
 
 ```
 git merge <branch_name>
