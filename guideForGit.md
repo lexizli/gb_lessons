@@ -9,7 +9,7 @@ What is a Git?
 <a id="top"></a>
 
 ---
-## Let's try to describe some commands that we we have learned  
+## Let's try to describe some commands that we have learned  
 * [git config](#config)
 * [git init](#init)
 * [git add](#add)
