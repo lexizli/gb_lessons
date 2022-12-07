@@ -25,7 +25,7 @@ What is a Git?
 ---
 ## git config
 
-Set the name _John Doe_ and email _john_d_email@mail.com_ дthat will be attached to commits and tags.
+Set the name _John Doe_ and email _john_d_email@mail.com_ that will be attached to commits and tags.
 ```
 git config --global user.name "John Doe"
 git config --global user.email "john_d_email@mail.com"
@@ -89,7 +89,7 @@ git status
 ---
 ## git log
 
-Show the commit logs
+Show the commit logs.
 
 ```
 git log
@@ -119,7 +119,7 @@ Switch to a branch _branch_name_ and update the working directory
 git checkout <branch_name>
 ```
 
-Ок create a new branch _branch_name_ and switch to it
+Or create a new branch _branch_name_ and switch to it.
 
 ```
 git checkout -b <branch_name>
@@ -132,7 +132,7 @@ git checkout -b <branch_name>
 ---
 ## git merge
 
-Merge one branch to another _comment_.
+Merge one branch to another.
 
 ```
 git merge <branch_name>
