@@ -64,7 +64,7 @@ git add .
 ---
 ## git commit
 
-Commit all added files to git with _comment_.
+Commit all added files to index with _comment_.
 
 ```
 git commit -m <comment>
@@ -76,7 +76,8 @@ git commit -m <comment>
 ---
 ## git status
 
-*******************Commit all added files to git with _comment_.*******************
+Show working tree status — differences between the index file and the current HEADgi
+ commit. 
 
 ```
 git status 
@@ -88,7 +89,7 @@ git status
 ---
 ## git log
 
-*******************Commit all added files to git with _comment_.*******************
+Show the commit logs
 
 ```
 git log
@@ -100,7 +101,7 @@ git log
 ---
 ## git branch
 
-*******************Commit all added files to git with _comment_.
+Create, list or delete branches. WIth _branch_name_ create this branch. Full optoins list is [here](https://git-scm.com/docs/git-branch).
 
 ```
 git branch <branch_name>
@@ -130,5 +131,3 @@ Commit all added files to git with _comment_.
 git merge <branch_name>
 ```
 [top](#top)
-
-совершенно с этим согласен
