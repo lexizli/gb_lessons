@@ -16,9 +16,10 @@ What is a Git?
 * [git commit](#commit)
 * [git status](#status)
 * [git log](#log)
-* [git branch](#branch)
+* [Branches](#branch)
 * [git checkout](#checkout)
-* [git merge](#merge)
+* [Merging](#merge)
+* [Conflictes](#conflict)
 
 <a id="config"></a>
 
@@ -99,7 +100,7 @@ git log
 <a id="branch"></a>
 
 ---
-## git branch
+## Branches
 
 Create, list or delete branches. WIth _branch_name_ create this branch. Full optoins list is [here](https://git-scm.com/docs/git-branch).
 
@@ -130,11 +131,20 @@ git checkout -b <branch_name>
 <a id="merge"></a>
 
 ---
-## git merge
+## Merging
 
 Merge one branch to another.
 
 ```
 git merge <branch_name>
 ```
+[top](#top)
+
+<a id="conflict"></a>
+
+---
+## Conflicts in merging
+
+Sometimes merging has problems. 
+
 [top](#top)
