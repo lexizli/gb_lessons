@@ -159,10 +159,10 @@ git checkout -b <branch_name>
 ---
 ## Merging
 
-Merge one branch to another.
+You or somebody else made work on some part of project and now it's need to add this part in our project. For this you have to use something like this (merge _added_branch_ to current:
 
 ```
-git merge <branch_name>
+git merge <added_branch>
 ```
 [top](#top)
 
