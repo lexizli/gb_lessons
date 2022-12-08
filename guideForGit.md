@@ -147,4 +147,6 @@ git merge <branch_name>
 
 Sometimes merging has problems. 
 
+![add some humor about merging](https://devhumor.com/content/uploads/images/July2020/merge.jpg)
+
 [top](#top)
