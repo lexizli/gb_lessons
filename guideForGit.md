@@ -99,13 +99,38 @@ git log
 <a id="branch"></a>
 
 ---
-## git branch
+## git branch and other ways for branch creating and swiching
 
+```
+git branch [options]
+```
 Create, list or delete branches. WIth _branch_name_ create this branch. Full optoins list is [here](https://git-scm.com/docs/git-branch).
+
+Create branch _branch_name_
 
 ```
 git branch <branch_name>
 ```
+Alternate ways:
+
+Fast creation and checkout
+```
+git checkout -b <newbranchname>
+```
+New (from Git 2.23)
+
+Now, from Git version 2.23, we have a new command for branch changing and creating.
+
+Changing branch to _some_branch_:
+```
+git switch <some_branch>
+```
+
+Creating and changing to _new_branch_:
+```
+git switch -c <new_branch>
+```
+
 [top](#top)
 
 <a id="checkout"></a>
